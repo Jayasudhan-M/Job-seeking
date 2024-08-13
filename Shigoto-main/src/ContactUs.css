@@ -1,0 +1,76 @@
+/* ContactUs.css */
+
+.contact-us {
+    background-color: #ffffff; /* White background for contact section */
+    padding: 50px 20px; /* Padding around the section */
+    text-align: center; /* Center text */
+  }
+  
+  .contact-us .container {
+    max-width: 800px; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .contact-us h2 {
+    font-size: 2.5rem; /* Larger font size for the heading */
+    color: #333; /* Dark grey color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    font-weight: bold; /* Bold font */
+  }
+  
+  .contact-us .form-group {
+    margin-bottom: 20px; /* Space between form fields */
+  }
+  
+  .contact-us label {
+    display: block; /* Labels on their own line */
+    margin-bottom: 5px; /* Space below the label */
+    font-weight: bold; /* Bold labels */
+  }
+  
+  .contact-us input,
+  .contact-us textarea {
+    width: 100%; /* Full width input and textarea */
+    padding: 10px; /* Padding inside input and textarea */
+    border: 1px solid #ddd; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .contact-us button {
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding inside button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Font size of the button text */
+  }
+  
+  .contact-us button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .contact-us .thank-you-message {
+    font-size: 1.2rem; /* Larger font size for the thank you message */
+    color: #28a745; /* Green color for success message */
+  }
+  
+  @media (max-width: 768px) {
+    .contact-us {
+      padding: 30px 15px; /* Adjust padding for smaller screens */
+    }
+  
+    .contact-us h2 {
+      font-size: 2rem; /* Smaller font size for the heading on small screens */
+    }
+  
+    .contact-us input,
+    .contact-us textarea {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+  
+    .contact-us button {
+      font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+  }
+  

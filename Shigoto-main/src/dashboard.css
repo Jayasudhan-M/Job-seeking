@@ -1,0 +1,306 @@
+/* General Styles */
+.dashboard {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(rgb(232, 229, 222), white);
+  padding: 20px;
+}
+.jk{
+  font-size: 3rem; /* Increase this value as needed */
+  text-align: center;
+  color: #333; /* Adjust color as needed */
+  margin: 20px 0;
+  padding: 100px;
+  font-weight: bold; /* Add this if you want the text to be bold */
+}
+/* Carousel Styles */
+.carousel {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  height: 360px;
+  background: #918e8e;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slick-prev,
+.slick-next {
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 30px;
+  color: #000;
+}
+
+/* Success Card Styles */
+.success-card {
+  width: 100%;
+  max-width: 210px;
+  height: auto;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #ecebeb;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.success-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.success-card h4 {
+  margin: 10px 0;
+}
+
+.success-card p {
+  color: #777;
+}
+
+/* Search Bar Styles */
+.search-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+  box-shadow: 3px 4px;
+}
+
+.search-bar input,
+.search-bar select {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  flex: 1;
+  min-width: 200px;
+  box-sizing: border-box;
+  box-shadow: 3px 4px;
+}
+
+.search-bar .search-button {
+  padding: 10px 20px;
+  background-color: #f60000f0;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-style: ridge;
+  box-shadow: black 1.5px 1.5px;
+  border-color: black;
+}
+
+.search-bar .search-button:active {
+  transform: translateY(4px);
+}
+
+.search-bar .search-button:hover {
+  background-color: #ffffff;
+  color: #000;
+  border-style: solid;
+  border-color: black;
+}
+
+/* Promotion Section */
+.promotion {
+  background-color: #ffffff80;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 3px 4px;
+}
+
+.promotion h3 {
+  margin-bottom: 10px;
+}
+
+/* Featured Companies Section */
+.featured-companies {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(241, 240, 240);
+  
+}
+
+.featured-companies h3 {
+  margin-bottom: 20px;
+}
+
+.company-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.company-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.company-card img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.company-card .rating {
+  margin: 10px 0;
+}
+
+.company-card .rating span {
+  color: #161616;
+}
+
+.view-jobs {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* View All Companies Button */
+.view-all-companies {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid #002aff;
+  color: #0015ff;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: black 2px 2px;
+}
+
+.view-all-companies:hover {
+  background-color: rgb(68, 111, 238);
+  color: white;
+}
+
+.view-all-companies:active {
+  transform: translateY(3px);
+}
+
+/* Explore Button */
+.explore-button {
+  border-radius: 10px;
+  height: 36px;
+  cursor: pointer;
+  box-shadow: 3px 4px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.explore-button:hover {
+  background-color: #579fec;
+}
+
+.explore-button:active {
+  transform: translateY(3px);
+}
+
+/* Sponsored Companies Section */
+.sponsored-companies {
+  padding: 10px;
+  color:white;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #1d1d1dec;
+  box-shadow: 3px 4px;
+}
+
+.sponsored-companies h3 {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.sponsored-company-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sponsored-company-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+  max-width: 250px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.sponsored-company-card img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.sponsored-company-card h4 {
+  margin: 10px 0;
+}
+
+.sponsored-company-card p {
+  color: #000000;
+}
+
+/* Responsive Layouts */
+@media (max-width: 768px) {
+  .carousel {
+    width: 100%;
+    height: auto;
+  }
+
+  .search-bar input,
+  .search-bar select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .success-card,
+  .company-card,
+  .sponsored-company-card {
+    width: 90%;
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel {
+    padding: 20px 0;
+  }
+
+  .success-card img,
+  .company-card img,
+  .sponsored-company-card img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .explore-button,
+  .view-all-companies,
+  .view-jobs {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+}

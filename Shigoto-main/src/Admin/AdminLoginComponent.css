@@ -1,0 +1,9 @@
+body {
+  background:linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
+}
+
+.admin-login-box {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+}

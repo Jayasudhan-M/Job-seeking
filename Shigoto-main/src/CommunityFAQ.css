@@ -1,0 +1,59 @@
+/* CommunityFAQ.css */
+
+.community-faq {
+    background-color: #f9f9f9; /* Light grey background */
+    padding: 50px 20px; /* Padding around the section */
+    text-align: center; /* Center text */
+  }
+  
+  .community-faq .container {
+    max-width: 800px; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .community-faq h2 {
+    font-size: 2.5rem; /* Larger font size for the heading */
+    color: #333; /* Dark grey color for the heading */
+    margin-bottom: 30px; /* Space below the heading */
+    font-weight: bold; /* Bold font */
+  }
+  
+  .community-faq .faq-list {
+    text-align: left; /* Align text to the left for FAQs */
+  }
+  
+  .community-faq .faq-item {
+    margin-bottom: 20px; /* Space between FAQ items */
+  }
+  
+  .community-faq .faq-question {
+    font-size: 1.5rem; /* Font size for the question */
+    color: #007bff; /* Blue color for the question */
+    margin-bottom: 10px; /* Space below the question */
+    font-weight: bold; /* Bold font */
+  }
+  
+  .community-faq .faq-answer {
+    font-size: 1.2rem; /* Font size for the answer */
+    color: #555; /* Medium grey color for the answer */
+    line-height: 1.6; /* Better readability */
+  }
+  
+  @media (max-width: 768px) {
+    .community-faq {
+      padding: 30px 15px; /* Adjust padding for smaller screens */
+    }
+  
+    .community-faq h2 {
+      font-size: 2rem; /* Smaller font size for the heading on small screens */
+    }
+  
+    .community-faq .faq-question {
+      font-size: 1.2rem; /* Smaller font size for the question on small screens */
+    }
+  
+    .community-faq .faq-answer {
+      font-size: 1rem; /* Smaller font size for the answer on small screens */
+    }
+  }
+  
